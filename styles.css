@@ -1,0 +1,68 @@
+#header{
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#title{
+    position: relative;
+    right: 10%;
+    top: 30%;
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+
+#button-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    background-color:white;
+    width: 20%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    border-radius: 20%;
+    border-color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#image{
+    height: 30vh;
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#center-content{
+    background-color: orange;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#list-container{
+    background-color: palegreen;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    bottom: 20%
+}
